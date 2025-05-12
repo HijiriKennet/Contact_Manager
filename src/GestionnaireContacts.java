@@ -95,7 +95,7 @@ public class GestionnaireContacts {
 		}
 	}
 	
-	
+	// J'ai grave souffert sur cette fonction ...
 	public void supprimerContact2 (String nom) {
 		String trouve = chercheContact2(nom);
 		nbrContacts--;
@@ -129,7 +129,7 @@ public class GestionnaireContacts {
 		      e.printStackTrace();
 		 }
 	}
-
+	// voici un bout de code qui va pas beaucoup servir...
 	public void reecrireContact0 () {
 		 try {
 			RandomAccessFile monFichier = new RandomAccessFile("contacts.txt", "rwd");
